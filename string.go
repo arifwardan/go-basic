@@ -11,3 +11,4 @@ func main() {
 	fmt.Println("Arif Wardan"[0])
 	fmt.Println("Arif Wardan 20"[1])
 }
+

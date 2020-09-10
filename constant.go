@@ -8,8 +8,7 @@ func main() {
 		 lastName = "Wardan"
 		 age = 20
 	)
-
-
+	
 	fmt.Println(lastName)
 	fmt.Println(age)
 }

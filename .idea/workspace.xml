@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e829d54-90ba-4ef3-89ea-3c75f93ed7e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/func-named-return-val.go" beforeDir="false" afterPath="$PROJECT_DIR$/func-named-return-val.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function-variadic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,7 +34,7 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build func-named-return-val.go">
+  <component name="RunManager" selected="Go Build.go build function-variadic.go">
     <configuration name="go build break.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_bassic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -68,21 +67,21 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build switch.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build function-variadic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_bassic" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/switch.go" />
+      <filePath value="$PROJECT_DIR$/function-variadic.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build function-variadic.go" />
         <item itemvalue="Go Build.go build func-named-return-val.go" />
         <item itemvalue="Go Build.go build func-multiple-val.go" />
         <item itemvalue="Go Build.go build break.go" />
         <item itemvalue="Go Build.go build for.go" />
-        <item itemvalue="Go Build.go build switch.go" />
       </list>
     </recent_temporary>
   </component>

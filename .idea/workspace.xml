@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e829d54-90ba-4ef3-89ea-3c75f93ed7e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/function-variadic.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/function-variadic.go" beforeDir="false" afterPath="$PROJECT_DIR$/function-variadic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

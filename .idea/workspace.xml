@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7e829d54-90ba-4ef3-89ea-3c75f93ed7e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/function-variadic.go" beforeDir="false" afterPath="$PROJECT_DIR$/function-variadic.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/function-as-value.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,20 +34,12 @@
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
   </component>
-  <component name="RunManager" selected="Go Build.go build function-variadic.go">
+  <component name="RunManager" selected="Go Build.go build function-as-value.go">
     <configuration name="go build break.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_bassic" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
       <filePath value="$PROJECT_DIR$/break.go" />
-      <directory value="$PROJECT_DIR$" />
-      <method v="2" />
-    </configuration>
-    <configuration name="go build for.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="Go_bassic" />
-      <working_directory value="$PROJECT_DIR$" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/for.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -67,6 +59,14 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <configuration name="go build function-as-value.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="Go_bassic" />
+      <working_directory value="$PROJECT_DIR$" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/function-as-value.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
     <configuration name="go build function-variadic.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go_bassic" />
       <working_directory value="$PROJECT_DIR$" />
@@ -77,11 +77,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build function-as-value.go" />
         <item itemvalue="Go Build.go build function-variadic.go" />
         <item itemvalue="Go Build.go build func-named-return-val.go" />
         <item itemvalue="Go Build.go build func-multiple-val.go" />
         <item itemvalue="Go Build.go build break.go" />
-        <item itemvalue="Go Build.go build for.go" />
       </list>
     </recent_temporary>
   </component>
@@ -104,21 +104,25 @@
       <screen x="0" y="27" width="1366" height="741" />
     </state>
     <state x="466" y="155" width="424" height="491" key="FileChooserDialogImpl/0.27.1366.741@0.27.1366.741" timestamp="1599754888422" />
-    <state width="1320" height="215" key="GridCell.Tab.0.bottom" timestamp="1599790180324">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1320" height="158" key="GridCell.Tab.0.bottom" timestamp="1600788997063">
+      <screen x="0" y="27" width="1366" height="699" />
     </state>
+    <state width="1320" height="158" key="GridCell.Tab.0.bottom/0.27.1366.699@0.27.1366.699" timestamp="1600788997063" />
     <state width="1320" height="215" key="GridCell.Tab.0.bottom/0.27.1366.741@0.27.1366.741" timestamp="1599790180324" />
-    <state width="1320" height="215" key="GridCell.Tab.0.center" timestamp="1599790180324">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1320" height="158" key="GridCell.Tab.0.center" timestamp="1600788997059">
+      <screen x="0" y="27" width="1366" height="699" />
     </state>
+    <state width="1320" height="158" key="GridCell.Tab.0.center/0.27.1366.699@0.27.1366.699" timestamp="1600788997059" />
     <state width="1320" height="215" key="GridCell.Tab.0.center/0.27.1366.741@0.27.1366.741" timestamp="1599790180324" />
-    <state width="1320" height="215" key="GridCell.Tab.0.left" timestamp="1599790180323">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1320" height="158" key="GridCell.Tab.0.left" timestamp="1600788997058">
+      <screen x="0" y="27" width="1366" height="699" />
     </state>
+    <state width="1320" height="158" key="GridCell.Tab.0.left/0.27.1366.699@0.27.1366.699" timestamp="1600788997057" />
     <state width="1320" height="215" key="GridCell.Tab.0.left/0.27.1366.741@0.27.1366.741" timestamp="1599790180323" />
-    <state width="1320" height="215" key="GridCell.Tab.0.right" timestamp="1599790180324">
-      <screen x="0" y="27" width="1366" height="741" />
+    <state width="1320" height="158" key="GridCell.Tab.0.right" timestamp="1600788997063">
+      <screen x="0" y="27" width="1366" height="699" />
     </state>
+    <state width="1320" height="158" key="GridCell.Tab.0.right/0.27.1366.699@0.27.1366.699" timestamp="1600788997062" />
     <state width="1320" height="215" key="GridCell.Tab.0.right/0.27.1366.741@0.27.1366.741" timestamp="1599790180324" />
     <state width="1320" height="215" key="GridCell.Tab.1.bottom" timestamp="1599790180325">
       <screen x="0" y="27" width="1366" height="741" />
